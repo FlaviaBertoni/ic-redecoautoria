@@ -9,10 +9,6 @@ import controller.MetodosRede;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Byzantine
- */
 public class GerarRedelJFrame extends javax.swing.JFrame {
     MetodosRede rede = new MetodosRede();
     /**
@@ -73,8 +69,6 @@ public class GerarRedelJFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        //this.setVisible(false);
-        //rede.mostrarRede();
         rede.criarRede();
         this.setVisible(false);
         new RedeJFrame().setVisible(true); 
