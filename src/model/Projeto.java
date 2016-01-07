@@ -38,16 +38,4 @@ public class Projeto {
 	public void setAnoFim(int anoFim) {
 		this.anoFim = anoFim;
 	}
-	
-	// OBESERVAÇÕES
-	// private String situacao; // talvez seja necessário (em andamento, finalizado, etc)
-	// Financiadores? Necessário? Criar uma classe? 
-	// Alunos envolvidos???? Necessário?
-	
-	
-	// INTEGRANTES
-	// Os integrantes do projetos são pertencentes da classe docente
-	
-	
-
 }
