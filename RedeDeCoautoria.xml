@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  An excerpt of an egocentric social network  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+	<graph edgedefault="undirected">
+
+		<!-- data schema -->
+		<key id="name" for="node" attr.name="name" attr.type="string"/>
+
+		<!-- nodes -->  
+		<node id="1000000000">
+			<data key="name">IFSP</data>
+		</node>
+		<node id="1">
+			<data key="name">Ana Paula Muller Giancoli</data>
+		</node>
+		<node id="2">
+			<data key="name">Andre Luis Maciel Leme</data>
+		</node>
+		<node id="3">
+			<data key="name">Andre Marcelo Panhan</data>
+		</node>
+		<node id="4">
+			<data key="name">Bianca Maria Pedrosa</data>
+		</node>
+		<node id="5">
+			<data key="name">Cesar Alexandre Silva Lima</data>
+		</node>
+		<node id="6">
+			<data key="name">Clayton Eduardo dos Santos</data>
+		</node>
+		<node id="7">
+			<data key="name">Cristina Correa de Oliveira</data>
+		</node>
+		<node id="8">
+			<data key="name">Elisandra Aparecida Alves da Silva</data>
+		</node>
+		<node id="9">
+			<data key="name">Leticia Souza Netto Brandi</data>
+		</node>
+		<node id="10">
+			<data key="name">Luciano Bernardes de Paula</data>
+		</node>
+		<node id="12">
+			<data key="name">Rosalvo Soares Cavalcante Filho</data>
+		</node>
+		<node id="13">
+			<data key="name">Talita de Paula Cypriano de Souza</data>
+		</node>
+		<node id="14">
+			<data key="name">Wilson Vendramel</data>
+		</node>
+		<node id="200">
+			<data key="name">Jose Walter Parquet Bizarria</data>
+		</node>
+		<node id="700">
+			<data key="name">Veranisse Jacubowski Correa</data>
+		</node>
+		<node id="1100">
+			<data key="name">Sergio Francisco da Silva</data>
+		</node>
+		<node id="1900">
+			<data key="name">Rogerio Aparecido da Silva</data>
+		</node>
+		<node id="2100">
+			<data key="name">BREDA, GEAN DAVIS</data>
+		</node>
+		<node id="2300">
+			<data key="name">MENDES, LEONARDO SOUZA</data>
+		</node>
+		<node id="2500">
+			<data key="name">Leonardo de Sousa Mendes</data>
+		</node>
+		<node id="2700">
+			<data key="name">William Sousa</data>
+		</node>
+		<node id="2800">
+			<data key="name">Olliver Almeida</data>
+		</node>
+		<node id="2900">
+			<data key="name">Marina Teresa Pires Vieira</data>
+		</node>
+		<node id="3100">
+			<data key="name">Ricardo Cartaxo Modesto de Souza</data>
+		</node>
+		<node id="3500">
+			<data key="name">Marcelo Gattas</data>
+		</node>
+		<node id="3600">
+			<data key="name">Juliana Valeria Tozzi</data>
+		</node>
+		<node id="4000">
+			<data key="name">Jose Alberto F Rodrigues Filho</data>
+		</node>
+		<node id="4100">
+			<data key="name">Frederico fonseca</data>
+		</node>
+		<node id="4200">
+			<data key="name">Gustavo dos Santos Florio</data>
+		</node>
+		<node id="4300">
+			<data key="name">Michele Bragante Frois</data>
+		</node>
+		<node id="4400">
+			<data key="name">Rafael Rodrigues de Souza</data>
+		</node>
+		<node id="4500">
+			<data key="name">Annie France Frere Slaets</data>
+		</node>
+		<node id="4600">
+			<data key="name">Marcia Aparecida Silva</data>
+		</node>
+		<node id="4700">
+			<data key="name">Leandro Alves Neves</data>
+		</node>
+		<node id="4800">
+			<data key="name">Augusto Voltaire do Nascimento</data>
+		</node>
+		<node id="5000">
+			<data key="name">Marcelo Zanchetta do Nascimento</data>
+		</node>
+		<node id="5200">
+			<data key="name">Jair Minoro Abe</data>
+		</node>
+		<node id="5500">
+			<data key="name">Marcelo Nogueira</data>
+		</node>
+		<node id="5700">
+			<data key="name">Mariano Sergio Pacheco de Angelo</data>
+		</node>
+		<node id="5800">
+			<data key="name">Barbara de Souza Gutierres</data>
+		</node>
+		<node id="5900">
+			<data key="name">Mario da Silva Quinello</data>
+		</node>
+		<node id="6100">
+			<data key="name">Paulo Ramirez</data>
+		</node>
+		<node id="6400">
+			<data key="name">Alex Jones Cassenote Flores</data>
+		</node>
+		<node id="6500">
+			<data key="name">Pedro Afonso Guerrato</data>
+		</node>
+		<node id="6600">
+			<data key="name">Renata Pontin de Mattos Fortes</data>
+		</node>
+		<node id="6700">
+			<data key="name">Debora Barroso Paiva</data>
+		</node>
+		<node id="6800">
+			<data key="name">Marco Tulio Carvalho de Andrade</data>
+		</node>
+		<node id="7100">
+			<data key="name">Arthur Moreno Fernandes</data>
+		</node>
+		<node id="7200">
+			<data key="name">Gustavo Henrique Goncalves Augusto</data>
+		</node>
+		<node id="7300">
+			<data key="name">Francisco Manoel Pereira Neto</data>
+		</node>
+		<node id="7400">
+			<data key="name">Thiago Moreno Venancio Leal</data>
+		</node>
+		<node id="7500">
+			<data key="name">Rafael Maffud Carlini</data>
+		</node>
+		<node id="7800">
+			<data key="name">Eliane Andreoli G. dos Santos</data>
+		</node>
+		<node id="7900">
+			<data key="name">JULIO CESAR FERREIRA GAMA ROCHA</data>
+		</node>
+		<node id="8000">
+			<data key="name">Paula Ayumi Nikaido</data>
+		</node>
+		<node id="8100">
+			<data key="name">Fernando Alexandre Rodrigues Gamboa</data>
+		</node>
+		<node id="8200">
+			<data key="name">Ettore Bresciani Filho</data>
+		</node>
+		<node id="8400">
+			<data key="name">Adriano Mauro Cansian</data>
+		</node>
+		<node id="8600">
+			<data key="name">Madeira, Edmundo</data>
+		</node>
+		<node id="8700">
+			<data key="name">Verdi, Fabio L.</data>
+		</node>
+		<node id="8800">
+			<data key="name">Luis Carlos Trevelin</data>
+		</node>
+		<node id="9000">
+			<data key="name">Magalhaes, Mauricio Ferreira</data>
+		</node>
+		<node id="9300">
+			<data key="name">Rodolfo Villaca</data>
+		</node>
+		<node id="9500">
+			<data key="name">Mauricio Magalhaes</data>
+		</node>
+		<node id="9700">
+			<data key="name">Pier Franco Ricchetti</data>
+		</node>
+		<node id="10000">
+			<data key="name">Sheila Moutinho Lima</data>
+		</node>
+		<node id="10100">
+			<data key="name">Renan Dozorski Conrado</data>
+		</node>
+		<node id="10200">
+			<data key="name">Italo Andrade</data>
+		</node>
+		<node id="10300">
+			<data key="name">Alessandra Conrado Velozo</data>
+		</node>
+		<node id="10700">
+			<data key="name">Alexandre de Lima Esteves</data>
+		</node>
+		<node id="10900">
+			<data key="name">Ana Cristina Gobbo Cesar</data>
+		</node>
+		<node id="11400">
+			<data key="name">Rosangela Kronig</data>
+		</node>
+		<edge source="1" target="200"></edge>
+			
+		<edge source="1" target="700"></edge>
+			
+		<edge source="1" target="6"></edge>
+			
+		<edge source="1" target="1100"></edge>
+			
+		<edge source="1" target="13"></edge>
+			
+		<edge source="2" target="1900"></edge>
+			
+		<edge source="3" target="2300"></edge>
+			
+		<edge source="3" target="2500"></edge>
+			
+		<edge source="3" target="2100"></edge>
+			
+		<edge source="3" target="2700"></edge>
+			
+		<edge source="3" target="2800"></edge>
+			
+		<edge source="4" target="2900"></edge>
+			
+		<edge source="4" target="3500"></edge>
+			
+		<edge source="4" target="3600"></edge>
+			
+		<edge source="4" target="4000"></edge>
+			
+		<edge source="4" target="4100"></edge>
+			
+		<edge source="4" target="3100"></edge>
+			
+		<edge source="4" target="4200"></edge>
+			
+		<edge source="4" target="4300"></edge>
+			
+		<edge source="5" target="4200"></edge>
+			
+		<edge source="5" target="4400"></edge>
+			
+		<edge source="6" target="4500"></edge>
+			
+		<edge source="6" target="4700"></edge>
+			
+		<edge source="6" target="4800"></edge>
+			
+		<edge source="6" target="4600"></edge>
+			
+		<edge source="6" target="5000"></edge>
+			
+		<edge source="7" target="4500"></edge>
+			
+		<edge source="7" target="5200"></edge>
+			
+		<edge source="7" target="5500"></edge>
+			
+		<edge source="7" target="5900"></edge>
+			
+		<edge source="7" target="5700"></edge>
+			
+		<edge source="7" target="5800"></edge>
+			
+		<edge source="7" target="6100"></edge>
+			
+		<edge source="7" target="6400"></edge>
+			
+		<edge source="8" target="6600"></edge>
+			
+		<edge source="8" target="6700"></edge>
+			
+		<edge source="8" target="6800"></edge>
+			
+		<edge source="8" target="13"></edge>
+			
+		<edge source="8" target="7100"></edge>
+			
+		<edge source="8" target="7200"></edge>
+			
+		<edge source="8" target="7300"></edge>
+			
+		<edge source="8" target="7400"></edge>
+			
+		<edge source="8" target="7500"></edge>
+			
+		<edge source="8" target="7800"></edge>
+			
+		<edge source="8" target="7900"></edge>
+			
+		<edge source="8" target="8000"></edge>
+			
+		<edge source="9" target="8100"></edge>
+			
+		<edge source="9" target="8200"></edge>
+			
+		<edge source="10" target="8400"></edge>
+			
+		<edge source="10" target="8700"></edge>
+			
+		<edge source="10" target="8800"></edge>
+			
+		<edge source="10" target="9000"></edge>
+			
+		<edge source="10" target="9500"></edge>
+			
+		<edge source="10" target="8600"></edge>
+			
+		<edge source="10" target="9300"></edge>
+			
+		<edge source="12" target="9700"></edge>
+			
+		<edge source="13" target="8"></edge>
+			
+		<edge source="13" target="5"></edge>
+			
+		<edge source="14" target="10000"></edge>
+			
+		<edge source="14" target="10100"></edge>
+			
+		<edge source="14" target="10200"></edge>
+			
+		<edge source="14" target="10300"></edge>
+			
+		<edge source="14" target="10700"></edge>
+			
+		<edge source="14" target="10900"></edge>
+			
+		<edge source="14" target="11400"></edge>
+			
+		<edge source="14" target="6500"></edge>
+			
+		<edge source="1" target="1000000000"></edge>
+			
+		<edge source="1" target="1000000000"></edge>
+			
+		<edge source="1" target="1000000000"></edge>
+			
+		<edge source="1" target="1000000000"></edge>
+			
+		<edge source="1" target="1000000000"></edge>
+			
+		<edge source="2" target="1000000000"></edge>
+			
+		<edge source="3" target="1000000000"></edge>
+			
+		<edge source="3" target="1000000000"></edge>
+			
+		<edge source="3" target="1000000000"></edge>
+			
+		<edge source="3" target="1000000000"></edge>
+			
+		<edge source="3" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="4" target="1000000000"></edge>
+			
+		<edge source="5" target="1000000000"></edge>
+			
+		<edge source="5" target="1000000000"></edge>
+			
+		<edge source="6" target="1000000000"></edge>
+			
+		<edge source="6" target="1000000000"></edge>
+			
+		<edge source="6" target="1000000000"></edge>
+			
+		<edge source="6" target="1000000000"></edge>
+			
+		<edge source="6" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="7" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="8" target="1000000000"></edge>
+			
+		<edge source="9" target="1000000000"></edge>
+			
+		<edge source="9" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="10" target="1000000000"></edge>
+			
+		<edge source="12" target="1000000000"></edge>
+			
+		<edge source="13" target="1000000000"></edge>
+			
+		<edge source="13" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+		<edge source="14" target="1000000000"></edge>
+			
+
+	</graph>
+</graphml>
