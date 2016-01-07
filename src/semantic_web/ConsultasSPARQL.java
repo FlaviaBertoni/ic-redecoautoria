@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package semantic_web;
 
 import com.hp.hpl.jena.query.Query;
@@ -15,10 +10,6 @@ import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.rdf.model.Model;
 import java.util.ArrayList;
 
-/**
- *
- * @author Byzantine
- */
 public class ConsultasSPARQL {
     
     String file;
@@ -43,9 +34,6 @@ public class ConsultasSPARQL {
 
         QueryExecution qe = QueryExecutionFactory.create(query, m);
         ResultSet results = qe.execSelect();
-        
-        //System.out.println("\n Resultado da consulta SPARQL: ");
-        //ResultSetFormatter.out(System.out, results, query);
         
         ArrayList al = new ArrayList();
         
@@ -85,10 +73,7 @@ public class ConsultasSPARQL {
 
         QueryExecution qe = QueryExecutionFactory.create(query, m);
         ResultSet results = qe.execSelect();
-        
-        //System.out.println("\n Resultado da consulta SPARQL: ");
-        //ResultSetFormatter.out(System.out, results, query);
-        
+
 	ArrayList al = new ArrayList();
         
         while(results.hasNext())
@@ -132,9 +117,6 @@ public class ConsultasSPARQL {
 
         QueryExecution qe = QueryExecutionFactory.create(query, m);
         ResultSet results = qe.execSelect();
-        
-        //System.out.println("\n Resultado da consulta SPARQL: ");
-        //ResultSetFormatter.out(System.out, results, query);
         
 	ArrayList al = new ArrayList();
         
