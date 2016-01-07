@@ -1,20 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package link_prediction;
 import java.util.ArrayList;
 import java.util.Iterator;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 
-
-/**
- *
- * @author Byzantine
- */
 public class VizinhosEmComum {
 
     private String nomeAutor;
@@ -61,7 +50,6 @@ public class VizinhosEmComum {
         int id = p.idDocenteNaRede(nome);
         int idAux=0;
         Node nDocente = graph.getNode(id);
-        //VizinhosEmComum vz = new VizinhosEmComum();
         ArrayList<VizinhosEmComum> alVC = new ArrayList<VizinhosEmComum>();
         VizinhosEmComum vz = new VizinhosEmComum();
         vz.nVC=0;
@@ -70,7 +58,6 @@ public class VizinhosEmComum {
         vz.nomesVizinhos.add("Nenhum");
         alVC.add(vz);
 
-        //Iterator<Node> itDocente = nDocente.neighbors();
         Iterator iNosRede = graph.nodes();
         
         while(iNosRede.hasNext())
