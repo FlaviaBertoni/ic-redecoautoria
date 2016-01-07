@@ -5,10 +5,6 @@
  */
 package view;
 
-/**
- *
- * @author Byzantine
- */
 public class MenuJFrame extends javax.swing.JFrame {
 
     /**
