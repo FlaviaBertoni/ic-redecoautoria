@@ -50,10 +50,7 @@ public class VisualizadorGrafo  {
 			System.exit(1);
 		}
 
-		// -- 2. the visualization --------------------------------------------
 		final Visualization vis = new Visualization();
-		//vis.add("graph", graph);
-		//vis.setInteractive("graph.edges", null, false);
 		vis.setValue("graph.edges", null, VisualItem.INTERACTIVE, Boolean.FALSE);
 
 		final TupleSet focusGroup = vis.getGroup(Visualization.FOCUS_ITEMS); 
@@ -77,18 +74,12 @@ public class VisualizadorGrafo  {
         focusGroup.setTuple(focus);
         final GraphDistanceFilter filter = new GraphDistanceFilter("graph", 4);
 
-		// -- 3. the renderers and renderer factory ---------------------------
 		LabelRenderer r = new LabelRenderer("name");
-		//r.setRoundedCorner(8, 8); // round the corners
-		r.setRoundedCorner(50, 200); //Segunda op��o mais redondinho
-		r.setMaxTextWidth(50); //100
+		r.setRoundedCorner(50, 200); 
+		r.setMaxTextWidth(50);
 		
 		vis.setRendererFactory(new DefaultRendererFactory(r));
 
-		// -- 4. the processing actions ---------------------------------------
-
-		
-		
 		ColorAction fill = new ColorAction("graph.nodes", VisualItem.FILLCOLOR, ColorLib.rgb(100, 216, 238));
 		ColorAction text = new ColorAction("graph.nodes", VisualItem.TEXTCOLOR,
 				ColorLib.gray(0));
@@ -120,9 +111,6 @@ public class VisualizadorGrafo  {
 		vis.putAction("layout", layout);
 		vis.putAction("draw", draw);
 		vis.runAfter("draw", "layout");
-	
-		
-		// -- 5. the display and interactive controls -------------------------
 
 		Control hoverc = new ControlAdapter() {
 		public void itemClicked(VisualItem item, MouseEvent e) 
@@ -165,7 +153,6 @@ public class VisualizadorGrafo  {
 	}
         
         private String nome="";
-        //private void nodeSolecionado(String nome){this.nome=nome;}
         public String getNodeSelecionado(){return nome;}
         
 
