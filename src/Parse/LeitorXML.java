@@ -48,7 +48,7 @@ public class LeitorXML {
         }
         
         autor = docente.getNomeCompleto();
-       // Endere�o Profissional
+       // Endereço Profissional
         NodeList listaEndenrecoProfissional = doc.getElementsByTagName("ENDERECO-PROFISSIONAL");
         Node nodeEnderecoProfissional = listaEndenrecoProfissional.item(0);
 
@@ -83,24 +83,24 @@ public class LeitorXML {
         NodeList childFormacao = listaFormacao.item(0).getChildNodes();
 		// -------------------------------------------------------------------
         
-        //Vai percorrer todos as tags filhas, uma por uma, e analisar qual delas �
+        //Vai percorrer todos as tags filhas, uma por uma, e analisar qual delas é
         for (int i = 0; i < childFormacao.getLength(); i++) {
 
         		Node nodeChild = childFormacao.item(i);
         		FormacaoAcademica formacao = new FormacaoAcademica();
               
                 if (nodeChild.getNodeName().contains("CURSO-TECNICO-PROFISSIONALIZANTE")) {
-                	formacao.setTitulacao("Curso T�cnico Profissionalizante");
+                	formacao.setTitulacao("Curso Técnico Profissionalizante");
                 	parseCourseFormacao(nodeChild, formacao);
                 } 
                 
                 if (nodeChild.getNodeName().contains("GRADUACAO")) {
-                	formacao.setTitulacao("Gradua��o");
+                	formacao.setTitulacao("Graduação");
                 	parseCourseFormacao(nodeChild, formacao);
                 } 
                 
                 if (nodeChild.getNodeName().contains("ESPECIALIZACAO")) {
-                	formacao.setTitulacao("Especializa��o");
+                	formacao.setTitulacao("Especialização");
                 	parseCourseFormacao(nodeChild, formacao);
                 }
                 
@@ -120,12 +120,12 @@ public class LeitorXML {
                 }
                 
                 if (nodeChild.getNodeName().contains("POS-DOUTORADO")) {
-                	formacao.setTitulacao("P�s-Doutorado");
+                	formacao.setTitulacao("Pós-Doutorado");
                 	parseCourseFormacao(nodeChild, formacao);
                 }
                 
                 if (nodeChild.getNodeName().contains("LIVRE-DOCENCIA")) {
-                	formacao.setTitulacao("Livre-doc�ncia"); 
+                	formacao.setTitulacao("Livre-docência"); 
                  	parseCourseFormacao(nodeChild, formacao);
                 }
                           
