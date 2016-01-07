@@ -10,10 +10,6 @@ import java.io.File;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Byzantine
- */
 public class CarregarCurriculoJFrame extends javax.swing.JFrame {
 
     String fileName="", fileType="";
