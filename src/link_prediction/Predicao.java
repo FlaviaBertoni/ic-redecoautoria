@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package link_prediction;
 
 import static java.lang.Math.log10;
@@ -14,10 +8,6 @@ import prefuse.data.Node;
 import prefuse.data.io.DataIOException;
 import prefuse.data.io.GraphMLReader;
 
-/**
- *
- * @author Byzantine
- */
 public class Predicao {
     
     private String nomeAutor;
@@ -104,11 +94,8 @@ public class Predicao {
         ArrayList<Predicao> alP = new ArrayList<Predicao>(); 
         Predicao p = new Predicao();
         Graph graph = p.grafoRede();
-        
-        //int auxAlVC=1;
 
         for(int i=1; i<alVC.size();i++){
-            //alVC.get(i).getNomePredicao();
             z=0;
             p = new Predicao();
             p.setCn(alVC.get(i).getnVC());
