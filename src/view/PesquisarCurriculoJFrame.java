@@ -9,10 +9,6 @@ import controller.MetodosRede;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Byzantine
- */
 public class PesquisarCurriculoJFrame extends javax.swing.JFrame {
     
     MetodosRede rede = new MetodosRede();
