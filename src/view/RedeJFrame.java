@@ -7,10 +7,6 @@ package view;
 
 import controller.MetodosRede;
 
-/**
- *
- * @author Byzantine
- */
 public class RedeJFrame extends javax.swing.JFrame {
     
     MetodosRede metodo = new MetodosRede();
